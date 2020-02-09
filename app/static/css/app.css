@@ -1,3 +1,4 @@
+
 body {
     padding-top: 5rem;
 }
@@ -5,16 +6,85 @@ img {
     border-radius: 50%;
     height: 270px;
     width: 270px;
+    margin: 45px 10px 45px 400px;
 }
+.part_1{
+    background-color: rgb(69, 168, 94);
+    color: white;
+    margin: 10px;
+    border-radius: 1%;
+}
+.shape{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+#post_num,#following_num,#followers_num{
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+    
+    
+}
+
+#post_tag,#following_tag,#followers_tag{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+#post_num,#post_tag{
+    padding: 4px 0px 4px 380px;
+}
+
+#following_num,#following_tag{
+    padding: 4px 0px 4px 35px;
+}
+
+#followers_num,#followers_tag{
+    padding: 4px 370px 4px 20px;
+}
+
+p{
+    margin:20px 40px 15px 40px;
+}
+
+h4{
+    padding: 4px 4px 4px 4px;
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+
+h1{
+    margin: 0px 0px 0px 360px;
+    padding: 4px 4px 4px 4px;
+    
+}
+
+#hastag{
+    margin: 0px 0px 0px 480px;
+
+}
+
+#location{
+    margin: 0px 0px 0px 440px;
+}
+
+#date{
+    margin: 0px 0px 0px 416px;
+    padding: 4px 4px 20px 4px;
+}
+
 
 button{
     background-color: green;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 12px 55px;
   text-align: center;
   font-size: 19px;
   cursor: pointer;
-  margin: 4px 2px;
+  margin: 0px 0px 0px 468px;
   border-radius: 15px;
 }

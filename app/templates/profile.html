@@ -2,30 +2,20 @@
 {% block main %}
 <div class="part_1">
     <img src="{{url_for('static', filename='cartoon-young-man-icon_24908-23725.jpg')}}" />
-    <h1>Jhermon Sudderam</h1>
-    <h4>@jhermy</h4>
-    <h4>kingston, Jamaica</h4>
-    <h4>Joined: {{format_date_joined}}</h4>
+    <h1 id="name">Jhermon Sudderam</h1>
+    <h4 id="hastag">@jhermy</h4>
+    <h4 id="location">kingston, Jamaica</h4>
+    <h4 id="date">Joined: {{format_date_joined}}</h4>
 </div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorum praesentium distinctio! Ipsam dolor reiciendis exercitationem! Alias rem magni excepturi, eveniet culpa quis quia totam, voluptatum facere, earum amet! Rem?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor modi doloremque rerum repudiandae a voluptatum soluta sapiente nulla tempore! Dolorum saepe consectetur corporis molestias, sit facere est iusto architecto in?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima porro veniam autem error nemo ut, alias corrupti doloremque sunt culpa veritatis dolorem illo, explicabo vel fugiat voluptates neque eum laborum?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem dignissimos consequatur magnam. Corporis deleniti ipsa assumenda animi ratione, doloribus est suscipit recusandae quisquam eaque. Minus ipsam molestiae eveniet cumque atque!Lorem</p>
+<div class="shape">
+    <div class="shape_items" id="post_num">7</div>
+    <div class="shape_items" id="following_num"> 500</div>
+    <div class="shape_items" id="followers_num"> 100 </div>
 
-<div class="part_2">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorum praesentium distinctio! Ipsam dolor reiciendis exercitationem! Alias rem magni excepturi, eveniet culpa quis quia totam, voluptatum facere, earum amet! Rem?</p>
-
-    <div class="post">
-        <div id="post_num"> <p>7</p> </div>
-        <div id="post_tag"> <p>Post</p> </div>
-    </div>
-
-    <div class="following">
-        <div id="following_num"> <p> 500 </p> </div>
-        <div id="following_tag"> <p>Following</p> </div>
-    </div>
-
-    <div class="followers">
-        <div id="followers_num"> <p>100</p> </div>
-        <div id="followers_tag"> <p>Followers</p> </div>
-    </div>
-
-    <button type="button">Follow</button>
+    <div class="shape_items" id="post_tag"> Post</div>
+    <div class="shape_items" id="following_tag">Following</div>
+    <div class="shape_items" id="followers_tag">Followers</div>
 </div>
+<button type="button">Follow</button>
 {% endblock %}
