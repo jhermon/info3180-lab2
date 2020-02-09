@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block main %}
+<div class="part_1">
+    <img src="{{url_for('static', filename='cartoon-young-man-icon_24908-23725.jpg')}}" />
+    <h1>Jhermon Sudderam</h1>
+    <h4>@jhermy</h4>
+    <h4>kingston, Jamaica</h4>
+    <h4>Joined: {{format_date_joined}}</h4>
+</div>
+
+<div class="part_2">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorum praesentium distinctio! Ipsam dolor reiciendis exercitationem! Alias rem magni excepturi, eveniet culpa quis quia totam, voluptatum facere, earum amet! Rem?</p>
+
+    <div class="post">
+        <div id="post_num"> <p>7</p> </div>
+        <div id="post_tag"> <p>Post</p> </div>
+    </div>
+
+    <div class="following">
+        <div id="following_num"> <p> 500 </p> </div>
+        <div id="following_tag"> <p>Following</p> </div>
+    </div>
+
+    <div class="followers">
+        <div id="followers_num"> <p>100</p> </div>
+        <div id="followers_tag"> <p>Followers</p> </div>
+    </div>
+
+    <button type="button">Follow</button>
+</div>
+{% endblock %}
